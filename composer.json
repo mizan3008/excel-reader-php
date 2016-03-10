@@ -1,0 +1,25 @@
+{
+    "name": "mizanur/excel-reader-php",
+    "type": "library",
+	"version": "2.1",
+    "description": "PHPExcel Reader for PHP",
+    "keywords": ["excel-reader-php"],
+    "homepage": "https://github.com/mizanur-rahman/excel-reader-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mizanur Rahman",
+			"email" : "mizan3008@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+		"ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": { "PHPExcel": "src/" }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
